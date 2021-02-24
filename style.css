@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+
+
+#container{
+  display: flex;
+  height: 100vh;
+}
+
+.left{
+  background-color: aqua;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  background-color: chartreuse;
+  flex-grow: 1;
+  border: 2px solid red;
+}
+
+.top {
+  flex:1;
+  background-color: red
+}
+
+.bottom {
+  flex:1;
+  background-color: green;
+}
